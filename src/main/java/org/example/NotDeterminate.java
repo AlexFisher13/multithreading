@@ -1,7 +1,11 @@
 package org.example;
 
 /** Пример, который показывает непредсказуемость потоков,
- * то есть распределение активности между потоками будет неравномерным*/
+ * то есть распределение активности между потоками будет неравномерным
+ *
+ * Первый (main) поток и второй спят одинаковое время и выводят запись на экран
+ * и мы можем заметить что это не всегда происходит по очереди, хотя в идеале должно.
+ * */
 public class NotDeterminate {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Count of active threads: " + Thread.activeCount());
@@ -22,7 +26,7 @@ class XRunnable implements Runnable {
     public void run() {
         for (int i = 0; i < 100; i++) {
             try {
-                Thread.sleep(300);
+                Thread.sleep(200);
             } catch (InterruptedException e) {
             }
             System.out.println(i + " Thread: " + Thread.currentThread().getName());
