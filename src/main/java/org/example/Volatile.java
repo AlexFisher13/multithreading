@@ -25,7 +25,7 @@ package org.example;
  * А если бы у нас строчка data = 1 выполнялась после ready = true то возможно
  * первый поток не сгрузил бы значение data в ОЗУ и второй не узнал бы о его изменении.
  * */
-public class VolatileReason {
+public class Volatile {
     volatile static boolean ready = false;
     static int data = 0;
 
