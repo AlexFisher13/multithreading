@@ -5,7 +5,7 @@ package org.example;
  * в synchronized методе может работать только один поток.
  * Программа работает медленнее, но гарантированно выдает правильный результат.
  */
-public class Synchronized {
+public class Synchronized_1 {
     public static final int N = 10_000_000;
     public static int counter = 0;
 

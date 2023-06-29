@@ -17,4 +17,17 @@ public class States {
         thread.join();
         System.out.println(thread.getState()); // TERMINATED - уничтожен
     }
+    Object object = new Object();
+
+
+    public synchronized void method1() {
+        object.notify();
+    }
+
+    // аналогично
+    public void method2() {
+        synchronized (this) {
+            object.notify();
+        }
+    }
 }
