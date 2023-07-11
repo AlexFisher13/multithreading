@@ -1,4 +1,4 @@
-package org.example;
+package org.concurrency.core.lesson4;
 
 /**
  * Пример показывает, что неатомарность приводит lost update (когда один поток перезаписывает другой).

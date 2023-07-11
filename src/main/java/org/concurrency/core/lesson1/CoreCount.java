@@ -1,4 +1,4 @@
-package org.example;
+package org.concurrency.core.lesson1;
 
 /**
  * Узнаем кол-во ядер на машине

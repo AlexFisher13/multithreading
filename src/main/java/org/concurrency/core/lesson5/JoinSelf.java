@@ -1,4 +1,4 @@
-package org.example;
+package org.concurrency.core.lesson5;
 
 /**
  * Простейший вариант deadlock'а - мы ждем сами себя

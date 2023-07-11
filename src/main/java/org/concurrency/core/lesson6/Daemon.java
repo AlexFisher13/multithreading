@@ -1,4 +1,4 @@
-package org.example;
+package org.concurrency.core.lesson6;
 
 /**
  * JVM завершает свою работу, когда закончились все потоки, не считая демонов.

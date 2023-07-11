@@ -1,4 +1,4 @@
-package org.example;
+package org.concurrency.core.lesson6;
 
 /**
  * Пример показывает бесполезность приоритизации потоков.

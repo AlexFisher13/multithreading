@@ -1,4 +1,4 @@
-package org.Task.Task_1_ArraySum;
+package org.tasks.Task_1_ArraySum;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

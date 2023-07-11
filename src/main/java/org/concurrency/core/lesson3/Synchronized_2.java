@@ -1,4 +1,4 @@
-package org.example;
+package org.concurrency.core.lesson3;
 
 /**
  * Пример показывает, что если один поток захватил мьютекс объекта в блоке synchronized

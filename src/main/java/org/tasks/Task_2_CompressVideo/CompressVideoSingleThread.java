@@ -1,4 +1,4 @@
-package org.Task.Task_2_CompressVideo;
+package org.tasks.Task_2_CompressVideo;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
