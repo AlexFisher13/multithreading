@@ -8,7 +8,7 @@ package org.concurrency.core.lesson3;
  * и в блоке synchronized мы захватываем мьютекс крутим бесконечный цикл.
  * Соответственно второй поток не может взаимодействовать с этим объектом.
  * */
-public class Synchronized_2 {
+public class MySynchronized_2 {
     public static void main(String[] args) throws InterruptedException {
 
         Object lock = new Object(); // объект по которому мы будем синхронизироваться
