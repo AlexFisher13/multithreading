@@ -1,4 +1,4 @@
-package org.concurrency.core.lesson3;
+package org.concurrency.lesson3;
 
 /**
  * Пример, показывает то, что второй поток не может зайти в synchronized метод,

@@ -1,4 +1,4 @@
-package org.concurrency.core.lesson7;
+package org.concurrency.lesson7;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.concurrency.core.lesson8;
+package org.concurrency.lesson8;
 
 import java.util.List;
 import java.util.concurrent.ExecutorService;

@@ -1,4 +1,4 @@
-package org.concurrency.core.lesson2;
+package org.concurrency.lesson2;
 
 /**
  * Пример показывает как потоки кэшируют значения и как это решает volatile,
